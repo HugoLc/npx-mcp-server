@@ -1,8 +1,9 @@
 {
-  "name": "npx-mcp-server",
-  "version": "1.0.0",
+  "name": "@hugolc/npx-mcp-server",
+  "version": "1.0.4",
+  "type": "module",
   "description": "Testing MCP Server on npm.",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "author": {
     "name": "Hugo Lindoso Correia"
   },
@@ -14,9 +15,10 @@
   },
   "files": [
     "./bin/*",
-    "./lib/*"
+    "./lib/*",
+    "./dist/*"
   ],
-  "typings": "./lib/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "tslint -c tslint.json src/**/*.ts",
@@ -28,5 +30,8 @@
     "@types/node": "^22.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "bin": {
+    "npx-mcp-server": "./dist/index.js"
   }
 }

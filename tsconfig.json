@@ -1,32 +1,26 @@
 {
-	"compilerOptions": {
-		"target": "es2020",
-		"module": "commonjs",
-		"outDir": "./dist",
-		"rootDir": "./src",
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"moduleResolution": "node",
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
 
-		"alwaysStrict": true,
-		"strictFunctionTypes": true,
-		"strictNullChecks": true,
-		"strictPropertyInitialization": true,
-		"noImplicitAny": true,
-		"noImplicitThis": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"pretty": true
-	},
-	"include": [
-		"typings/**/*",
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules",
-		"dist"
-	]
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "pretty": true
+  },
+  "include": ["typings/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
