@@ -32,6 +32,6 @@
     "typescript": "^5.8.3"
   },
   "bin": {
-    "npx-mcp-server": "./dist/index.js"
+    "@hugolc/npx-mcp-server": "./dist/index.js"
   }
 }
