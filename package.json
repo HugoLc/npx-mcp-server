@@ -1,6 +1,6 @@
 {
   "name": "@hugolc/npx-mcp-server",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "description": "Testing MCP Server on npm.",
   "main": "./dist/index.js",
@@ -32,6 +32,6 @@
     "typescript": "^5.8.3"
   },
   "bin": {
-    "@hugolc/npx-mcp-server": "./dist/index.js"
+    "npx-mcp-server": "./dist/index.js"
   }
 }
