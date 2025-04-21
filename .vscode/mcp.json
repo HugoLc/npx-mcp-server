@@ -1,0 +1,16 @@
+{
+    "servers": {
+        "npx-mcp-server": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@hugolc/npx-mcp-server"
+            ],
+            "env": {
+                "PREFIX": "O resultado é: ",
+                "OUTRA_VARIAVEL": "valor"
+            }
+        }
+    }
+}
