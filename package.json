@@ -1,6 +1,6 @@
 {
   "name": "@hugolc/teste-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Testing MCP Server on npm.",
   "main": "./dist/index.js",
