@@ -32,6 +32,6 @@
     "typescript": "^5.8.3"
   },
   "bin": {
-    "@hugolc/teste-mcp-server": "./dist/index.js"
+    "banana-com-feijao": "./dist/index.js"
   }
 }
