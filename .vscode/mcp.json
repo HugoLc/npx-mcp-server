@@ -1,16 +1,24 @@
 {
     "servers": {
-        "npx-mcp-server": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-                "-y",
-                "@hugolc/npx-mcp-server"
-            ],
-            "env": {
-                "PREFIX": "O resultado é: ",
-                "OUTRA_VARIAVEL": "valor"
-            }
+      "npx-mcp-server-1": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "npx-mcp-server"],
+        "env": {
+          "PREFIX": "O resultado é: ",
+          "OUTRA_VARIAVEL": "valor"
         }
+      },
+      "npx-mcp-server": {
+        "type": "stdio",
+        "command": "node",
+        "args": [
+          "/home/hugolc/Arquivos/Dev/Nodejs/npx-mcp-server/dist/index.js"
+        ],
+        "env": {
+          "PREFIX": "O resultado é: ",
+          "OUTRA_VARIAVEL": "valor"
+        }
+      }
     }
 }
